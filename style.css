@@ -15,7 +15,7 @@ a {
 
 /* Header Styles */
 header {
-  background-color: #dd6d9a; /* this is a shade of blue */
+  background-color: #044c98; /* this is a shade of blue */
   padding: 20px 0;
   text-align: center;
 }
@@ -81,7 +81,7 @@ header nav ul li a {
 /* Projects Section Styles */
 .section#projects {
   padding: 80px 0;
-  background-color: #007bff;
+  background-color: #499ffa;
   margin: 10px;
   list-style: none;
 }
