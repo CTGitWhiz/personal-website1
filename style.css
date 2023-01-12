@@ -46,7 +46,7 @@ header nav ul li a {
   padding: 40px;
   background-color: #ffffff2a;
   border-radius: 5%;
-  margin: 20px;
+  margin: 80px;
 }
 
 .section-title {
@@ -91,7 +91,7 @@ header nav ul li a {
   font-size: 10;
   padding: 60px 0;
   background-color: #d5d5d59d;
-  margin: 20px;
+  margin: 100px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -100,9 +100,7 @@ header nav ul li a {
 }
 
 .section#projects ul li {
-  margin: 0px;
-  padding: 0px;
-  font-size: 25px;
+  font-size: 24px;
   font-weight: bold;
   color: rgb(228, 224, 224);
 }
@@ -123,7 +121,6 @@ footer {
 
 /* HTML Styles */
 html {
-  height: max-content;
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 }
 
