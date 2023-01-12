@@ -51,8 +51,7 @@ header nav ul li a {
 
 .section-title {
   text-align: center;
-  font-size: 30px;
-  margin-bottom: 50px;
+  font-size: 35px;
   color: rgb(213, 18, 112);
 }
 
@@ -88,15 +87,14 @@ header nav ul li a {
 
 /* Projects Section Styles */
 .section#projects {
-  font-size: 10;
-  padding: 60px 0;
+  padding: 10px;
   background-color: #d5d5d59d;
   margin: 100px;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  border-radius: 7%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .section#projects ul li {
