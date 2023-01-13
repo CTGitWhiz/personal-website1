@@ -70,6 +70,7 @@ header nav ul li a {
 }
 
 .about-text {
+  line-height: 200%;
   text-align: center;
   margin: 25px;
   color: rgb(255, 255, 255);
@@ -87,6 +88,7 @@ header nav ul li a {
   color: rgb(228, 224, 224);
 }
 .experience-text {
+  line-height: 200%;
   text-align: center;
   margin: 70px;
   font-size: 20px;
