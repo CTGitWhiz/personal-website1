@@ -1,7 +1,13 @@
+/* HTML Styles */
+html {
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  scroll-behavior: smooth;
+}
+
 /* Global Styles */
 body {
   font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-size: 30px;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -15,7 +21,8 @@ a {
 /* Header Styles */
 header {
   background-color: rgba(213, 18, 112, 0.25);
-  padding: 20px 0;
+  padding: 20px;
+  margin-top: 10px;
   text-align: center;
 }
 
@@ -46,12 +53,13 @@ header nav ul li a {
   padding: 40px;
   background-color: #ffffff2a;
   border-radius: 5%;
-  margin: 80px;
+  margin: 180px;
+  transform: scale(0.8, 0.8);
 }
 
 .section-title {
   text-align: center;
-  font-size: 35px;
+  font-size: 45px;
   color: rgb(213, 18, 112);
 }
 
@@ -63,13 +71,13 @@ header nav ul li a {
 
 .about-text {
   text-align: center;
-  margin: 20px;
+  margin: 25px;
   color: rgb(255, 255, 255);
 }
 
 /* Experience Section Styles */
 .section#experience {
-  padding: 80px 0;
+  padding: 130px;
   color: rgb(134, 133, 133);
 }
 
@@ -80,21 +88,22 @@ header nav ul li a {
 }
 .experience-text {
   text-align: center;
-  margin: 20px;
+  margin: 70px;
   font-size: 20px;
   color: rgb(228, 224, 224);
 }
 
 /* Projects Section Styles */
 .section#projects {
-  padding: 10px;
+  padding: 0px;
+  padding-bottom: 130px;
   background-color: #d5d5d59d;
-  margin: 100px;
+  margin: 100px 300px 0 300px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  border-radius: 15px 15px 0 15px;
+  border-width: 200px;
 }
 
 .section#projects ul li {
@@ -105,21 +114,17 @@ header nav ul li a {
 
 /* Contact Section Styles */
 .section#contact {
-  padding: 80px 0;
+  padding-top: 130px;
   color: rgb(181, 181, 181);
+  transform: scale(0.5, 0.5);
 }
 
 /* Footer Styles */
 footer {
   background-color: #cdcfd228;
-  padding: 20px 0;
   text-align: center;
   color: rgb(234, 234, 234);
-}
-
-/* HTML Styles */
-html {
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  font-size: 15px;
 }
 
 /* STARS */
