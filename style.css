@@ -23,18 +23,17 @@ header {
   background-color: rgba(213, 18, 112, 0.25);
   padding: 20px;
   margin-top: 10px;
-  text-align: center;
 }
 
 header nav {
+  display: flex;
+  justify-content: center;
   text-align: center;
 }
 
 header nav ul {
   list-style: none;
-  margin: 0;
-  padding: 20;
-  display: inline-block;
+  padding: 20px;
 }
 
 header nav ul li {
@@ -50,80 +49,98 @@ header nav ul li a {
 
 /* About Me Section Styles */
 .section#about {
-  padding: 40px;
+  display: flex;
+  justify-content: center;
+  padding: 0;
   background-color: #ffffff2a;
   border-radius: 5%;
-  margin: 180px;
-  transform: scale(0.8, 0.8);
+  margin: 0;
+  transform: scale(0.6, 0.6);
 }
 
 .section-title {
+  display: flex;
+  justify-content: center;
   text-align: center;
   font-size: 45px;
   color: rgb(213, 18, 112);
 }
 
 .profile-picture {
+  display: flex;
+  justify-content: center;
   width: 50%;
   border-radius: 50%;
   margin: 0 auto;
 }
 
 .about-text {
+  display: flex;
+  justify-content: center;
   line-height: 200%;
-  text-align: center;
-  margin: 25px;
+  padding: 40px;
   color: rgb(255, 255, 255);
 }
 
 /* Experience Section Styles */
 .section#experience {
-  padding: 130px;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
   color: rgb(134, 133, 133);
+  height: 50vh;
 }
 
 .experience-title {
+  display: flex;
+  justify-content: center;
   font-size: 65px;
-  margin-bottom: 10px;
+  margin-bottom: 0;
   color: rgb(228, 224, 224);
 }
 .experience-text {
+  display: flex;
+  justify-content: center;
   line-height: 200%;
-  text-align: center;
-  margin: 70px;
+  margin: 0;
   font-size: 20px;
   color: rgb(228, 224, 224);
 }
 
 /* Projects Section Styles */
 .section#projects {
-  padding: 0px;
-  background-color: #d5d5d59d;
-  margin: 100px 300px 200px 300px;
-  display: flex;
-  align-items: center;
+  display: inline-block;
   justify-content: center;
-  border-radius: 15px 15px 0 15px;
-  border-width: 200px;
+  align-items: center;
+  background-color: #d5d5d59d;
+  border-radius: 15px;
+  margin: 100px;
 }
 
 .section#projects ul li {
+  display: inline-block;
+  justify-content: center;
   font-size: 24px;
   font-weight: bold;
   color: rgb(228, 224, 224);
+  margin: 2em;
 }
 
 /* Contact Section Styles */
 .section#contact {
-  padding-top: 130px;
+  display: flex;
+  justify-content: center;
   color: rgb(181, 181, 181);
   transform: scale(0.5, 0.5);
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 /* Footer Styles */
 footer {
+  display: flex;
+  justify-content: center;
   background-color: #cdcfd228;
-  text-align: center;
   color: rgb(234, 234, 234);
   font-size: 15px;
 }
